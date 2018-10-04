@@ -1,0 +1,15 @@
+group 'com.sachakilinski.pocs'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'idea'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'org.choco-solver', name: 'choco-solver', version: '4.0.5'
+}
